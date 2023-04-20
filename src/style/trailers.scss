@@ -1,0 +1,13 @@
+
+#video{
+  background: #fff;
+  padding: 50px 0;
+  .video{
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    &--card{
+      margin: 0 20px;
+    }
+  }
+}

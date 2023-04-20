@@ -1,0 +1,46 @@
+#home{
+  padding: 100px 0;
+  .home{
+    h1{
+      padding-top: 100px ;
+      color: white;
+      font-size: 4em;
+      font-weight: 900;
+    }
+    h2{
+      font-size: 2em;
+      font-weight: 900;
+      color: white;
+    }
+    &--nav{
+      display: flex;
+      align-items: center;
+
+    input {
+      margin: 90px 0;
+      width: 100%;
+      height: 46px;
+      line-height: 46px;
+      font-size: 1.1em;
+      color: rgba(0, 0, 0, 0.5);
+      border: none;
+      border-radius: 30px;
+      padding: 10px 20px;
+      outline: none;
+    }
+      button{
+        height: 66px;
+        padding: 20px 36px;
+        border: none;
+        background: blue;
+        border-radius: 30px;
+        position: absolute;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        right: 170px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+
+#actors{
+  padding: 50px 0;
+  background: white;
+  h1{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px 0;
+  }
+  .actors{
+    //display: flex;
+    //align-items: flex-start;
+    //overflow-x: auto;
+
+    &--card{
+      margin: 20px 020px;
+      background: red;
+      border: 2px solid black;
+      text-align: center;
+      h3{
+        font-size: 20px;
+        padding: 10px 0;
+        color: blue;
+      }
+    }
+  }
+}
